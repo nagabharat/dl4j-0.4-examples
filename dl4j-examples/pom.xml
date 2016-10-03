@@ -125,6 +125,9 @@
                 </executions>
                 <configuration>
                     <executable>java</executable>
+                    <mainClass>
+                        org.deeplearning4j.examples.recurrent.word2vecsentiment.Word2VecSentimentRNN
+                    </mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -167,6 +170,15 @@
                 </executions>
             </plugin>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
