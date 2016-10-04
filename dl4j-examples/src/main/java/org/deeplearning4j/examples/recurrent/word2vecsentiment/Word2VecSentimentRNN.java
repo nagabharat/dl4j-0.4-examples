@@ -54,7 +54,7 @@ public class Word2VecSentimentRNN {
     /** Location to save and extract the training/testing data */
     public static final String DATA_PATH = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "dl4j_w2vSentiment/");
     /** Location (local file system) for the Google News vectors. Set this manually. */
-    public static final String WORD_VECTORS_PATH = "/PATH/TO/YOUR/VECTORS/GoogleNews-vectors-negative300.bin";
+    public static final String WORD_VECTORS_PATH = "/home/synycs/GoogleNews-vectors-negative300.bin";
 
 
     public static void main(String[] args) throws Exception {
